@@ -124,7 +124,6 @@ app.post('/users', function (req, res) {
     }
     // file written successfully
   });
-
   res.status(201).json(newUser);
 });
 const port = process.env.PORT || 3000;
